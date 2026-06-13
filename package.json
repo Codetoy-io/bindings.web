@@ -9,14 +9,11 @@
     "./runtime": "./dist/runtime.js",
     "./screen": "./dist/screen.js",
     "./time": "./dist/time.js",
-    "./assemblyscript/canvas.txt": "./assemblyscript/canvas.txt",
-    "./assemblyscript/input.txt": "./assemblyscript/input.txt",
-    "./assemblyscript/screen.txt": "./assemblyscript/screen.txt",
-    "./assemblyscript/time.txt": "./assemblyscript/time.txt"
+    "./assembly/*.ts": "./assembly/*.ts"
   },
   "files": [
     "dist",
-    "assemblyscript"
+    "assembly"
   ],
   "scripts": {
     "build": "tsc",
