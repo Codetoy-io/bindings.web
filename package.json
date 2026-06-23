@@ -9,11 +9,13 @@
     "./runtime": "./dist/runtime.js",
     "./screen": "./dist/screen.js",
     "./time": "./dist/time.js",
-    "./assembly/*.ts": "./assembly/*.ts"
+    "./assembly/*.ts": "./assembly/*.ts",
+    "./python/*.pyi": "./python/*.pyi"
   },
   "files": [
     "dist",
-    "assembly"
+    "assembly",
+    "python"
   ],
   "scripts": {
     "build": "tsc",
